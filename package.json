@@ -1,0 +1,15 @@
+{
+  "name": "alc-001-legal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Privacy policy and terms of use for ALC-001.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/site.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
