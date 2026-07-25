@@ -1,4 +1,4 @@
-const storageKey = "alc-001-language";
+const storageKey = "screentrove-language";
 const buttons = document.querySelectorAll("[data-language-button]");
 const supported = new Set(["zh", "en"]);
 
