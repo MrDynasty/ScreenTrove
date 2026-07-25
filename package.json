@@ -1,8 +1,8 @@
 {
-  "name": "alc-001-legal",
+  "name": "screentrove-legal",
   "version": "1.0.0",
   "private": true,
-  "description": "Privacy policy and terms of use for ALC-001.",
+  "description": "Privacy policy and terms of use for ScreenTrove.",
   "type": "module",
   "scripts": {
     "dev": "node scripts/serve.mjs",
