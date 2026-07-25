@@ -30,5 +30,5 @@ createServer((request, response) => {
     createReadStream(join(root, "404.html")).pipe(response);
   }
 }).listen(port, "127.0.0.1", () => {
-  console.log(`ALC-001 preview: http://localhost:${port}/`);
+  console.log(`ScreenTrove preview: http://localhost:${port}/`);
 });
