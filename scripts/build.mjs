@@ -9,4 +9,4 @@ await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 await cp(source, output, { recursive: true });
 
-console.log("Built ALC-001 legal site in dist/");
+console.log("Built ScreenTrove legal site in dist/");
