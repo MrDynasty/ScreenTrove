@@ -8,12 +8,14 @@ test("built site contains all public pages", async () => {
   for (const page of pages) await access(new URL(`../dist/${page}`, import.meta.url));
 });
 
-test("legal pages identify ALC-001 and both languages", async () => {
+test("legal pages identify ScreenTrove and both languages", async () => {
   for (const page of pages.slice(1)) {
     const html = await readFile(new URL(`../dist/${page}`, import.meta.url), "utf8");
-    assert.match(html, /ALC-001/);
+    assert.match(html, /ScreenTrove/);
+    assert.match(html, /屏藏/);
     assert.match(html, /data-lang="zh"/);
     assert.match(html, /data-lang="en"/);
+    assert.doesNotMatch(html, /ALC-001/);
   }
 });
 
