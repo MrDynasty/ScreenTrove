@@ -1,6 +1,6 @@
-# ALC-001 Legal Website
+# ScreenTrove Legal Website
 
-ALC-001 的隐私政策与使用条款网站。它是一个无依赖的静态站点，可直接发布到
+ScreenTrove（简体中文名“屏藏”）的隐私政策与使用条款网站。它是一个无依赖的静态站点，可直接发布到
 GitHub Pages。
 
 ## 本地运行
