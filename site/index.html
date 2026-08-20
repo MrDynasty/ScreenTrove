@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#07111f">
-    <meta name="description" content="屏藏（ScreenTrove）隐私政策与使用条款。">
-    <meta property="og:title" content="ScreenTrove · Privacy & Terms">
-    <meta property="og:description" content="Clear information about privacy, data, and your rights.">
+    <meta name="description" content="屏藏（ScreenTrove）是一款隐私优先的截图整理与搜索工具：设备端 OCR、自动分类、全文搜索。">
+    <meta property="og:title" content="ScreenTrove · 屏藏">
+    <meta property="og:description" content="Privacy-first screenshot organizer and search. On-device OCR, auto categorization, full-text search.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mrleedynasty.com/">
     <meta property="og:image" content="https://mrleedynasty.com/assets/og.png">
     <meta name="twitter:card" content="summary_large_image">
-    <title>ScreenTrove · 隐私与条款</title>
+    <title>ScreenTrove · 屏藏 — 截图整理与搜索</title>
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./assets/styles.css">
     <script src="./assets/site.js" defer></script>
@@ -38,45 +38,105 @@
       <section class="hero">
         <div class="shell hero-grid">
           <div>
-            <p class="eyebrow" data-lang="zh">清晰 · 克制 · 尊重隐私</p>
-            <p class="eyebrow" data-lang="en">Clear · Considered · Private</p>
+            <p class="eyebrow" data-lang="zh">隐私优先 · 截图整理与搜索</p>
+            <p class="eyebrow" data-lang="en">Privacy-first · Screenshot organizer & search</p>
             <div data-lang="zh">
-              <h1>你的数据，<br>由你掌控。</h1>
-              <p class="hero-copy">在这里了解“屏藏”如何对待你的信息，以及使用本应用时双方遵循的约定。</p>
+              <h1>把截图变成<br>可搜索的资料库。</h1>
+              <p class="hero-copy">屏藏在设备端识别截图文字，自动生成标题、分类、摘要与标签，让相册里难找的截图随时可查。</p>
             </div>
             <div data-lang="en">
-              <h1>Your data.<br>Your choice.</h1>
-              <p class="hero-copy">Learn how ScreenTrove treats your information and the terms that apply when you use the app.</p>
+              <h1>Turn screenshots<br>into a searchable library.</h1>
+              <p class="hero-copy">ScreenTrove reads text on your device, auto-generates titles, categories, summaries, and tags — so screenshots are always easy to find.</p>
             </div>
             <div class="hero-actions">
-              <a class="button button-primary" href="./privacy/"><span data-lang="zh">阅读隐私政策</span><span data-lang="en">Read privacy policy</span></a>
-              <a class="button" href="./terms/"><span data-lang="zh">查看使用条款</span><span data-lang="en">View terms</span></a>
+              <a class="button button-primary app-store-button" href="https://apps.apple.com/cn/app/id6782530093" rel="noreferrer">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+                <span data-lang="zh">在 App Store 下载</span><span data-lang="en">Download on the App Store</span>
+              </a>
+              <a class="button" href="./privacy/"><span data-lang="zh">隐私与条款</span><span data-lang="en">Privacy & terms</span></a>
             </div>
           </div>
-          <div class="shield-art" aria-hidden="true">
-            <div class="shield-ring"></div>
-            <div class="shield-ring"></div>
-            <div class="shield-core"></div>
+          <div class="app-art" aria-hidden="false">
+            <img class="app-icon" src="./assets/app-icon.png" width="512" height="512" alt="ScreenTrove 应用图标 / ScreenTrove app icon">
           </div>
         </div>
       </section>
 
-      <section class="shell feature-strip" aria-label="Privacy highlights">
+      <section class="shell feature-strip" aria-label="App features">
         <article class="feature">
-          <strong><span data-lang="zh">不创建账号</span><span data-lang="en">No account required</span></strong>
-          <span data-lang="zh">使用当前版本无需注册或登录。</span>
-          <span data-lang="en">The current version works without registration or sign-in.</span>
+          <strong><span data-lang="zh">设备端 OCR</span><span data-lang="en">On-device OCR</span></strong>
+          <span data-lang="zh">在设备上提取截图文字，图片默认不上传。</span>
+          <span data-lang="en">Text is read on your device; images are not uploaded by default.</span>
         </article>
         <article class="feature">
-          <strong><span data-lang="zh">不进行广告追踪</span><span data-lang="en">No ad tracking</span></strong>
-          <span data-lang="zh">不使用跨应用广告标识符追踪你。</span>
-          <span data-lang="en">We do not track you across apps for advertising.</span>
+          <strong><span data-lang="zh">自动整理</span><span data-lang="en">Auto organizing</span></strong>
+          <span data-lang="zh">自动发现相册截图并生成标题、分类、摘要与标签。</span>
+          <span data-lang="en">Auto-discovers screenshots and generates titles, categories, summaries, and tags.</span>
         </article>
         <article class="feature">
-          <strong><span data-lang="zh">不出售个人信息</span><span data-lang="en">No sale of personal data</span></strong>
-          <span data-lang="zh">你的个人信息不会被出售或出租。</span>
-          <span data-lang="en">Your personal information is never sold or rented.</span>
+          <strong><span data-lang="zh">全文搜索</span><span data-lang="en">Full-text search</span></strong>
+          <span data-lang="zh">搜索标题、摘要、标签、识别文字与分类，快速定位。</span>
+          <span data-lang="en">Search titles, summaries, tags, recognized text, and categories instantly.</span>
         </article>
+        <article class="feature">
+          <strong><span data-lang="zh">灵活导出</span><span data-lang="en">Flexible export</span></strong>
+          <span data-lang="zh">将单条记录导出为图片、Markdown 或 CSV。</span>
+          <span data-lang="en">Export a record as image, Markdown, or CSV.</span>
+        </article>
+        <article class="feature">
+          <strong><span data-lang="zh">有限照片访问</span><span data-lang="en">Limited photo access</span></strong>
+          <span data-lang="zh">只处理你允许访问的图片，权限随时可撤。</span>
+          <span data-lang="en">Only images you allow are processed; access can be revoked anytime.</span>
+        </article>
+        <article class="feature">
+          <strong><span data-lang="zh">私密空间</span><span data-lang="en">Private space</span></strong>
+          <span data-lang="zh">支持生物识别或设备密码验证，保护敏感截图。</span>
+          <span data-lang="en">Biometric or passcode protection for sensitive screenshots.</span>
+        </article>
+      </section>
+
+      <section class="shell gallery" aria-label="ScreenTrove 截图 / Screenshots">
+        <h2 class="gallery-title"><span data-lang="zh">看看屏藏</span><span data-lang="en">See ScreenTrove</span></h2>
+        <div class="gallery-scroll" data-gallery-scroll>
+          <figure class="gallery-item">
+            <img src="./assets/screens/auto-organize-iphone.webp" width="585" height="1265" alt="自动整理" loading="lazy">
+            <figcaption><span data-lang="zh">自动整理</span><span data-lang="en">Auto organize</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/screens/auto-categorize-iphone.webp" width="585" height="1265" alt="自动分类" loading="lazy">
+            <figcaption><span data-lang="zh">自动分类</span><span data-lang="en">Auto categorize</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/screens/text-search-iphone.webp" width="585" height="1265" alt="文字搜索" loading="lazy">
+            <figcaption><span data-lang="zh">文字搜索</span><span data-lang="en">Text search</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/screens/on-device-iphone.webp" width="585" height="1265" alt="设备端处理" loading="lazy">
+            <figcaption><span data-lang="zh">设备端处理</span><span data-lang="en">On-device</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/screens/privacy-first-iphone.webp" width="585" height="1265" alt="隐私优先" loading="lazy">
+            <figcaption><span data-lang="zh">隐私优先</span><span data-lang="en">Privacy first</span></figcaption>
+          </figure>
+        </div>
+        <div class="gallery-tablets">
+          <figure class="gallery-item tablet">
+            <img src="./assets/screens/auto-organize-ipad.webp" width="768" height="1024" alt="自动整理" loading="lazy">
+            <figcaption><span data-lang="zh">iPad 自动整理</span><span data-lang="en">Auto organize on iPad</span></figcaption>
+          </figure>
+          <figure class="gallery-item tablet">
+            <img src="./assets/screens/text-search-ipad.webp" width="768" height="1024" alt="文字搜索" loading="lazy">
+            <figcaption><span data-lang="zh">iPad 文字搜索</span><span data-lang="en">Text search on iPad</span></figcaption>
+          </figure>
+          <figure class="gallery-item tablet">
+            <img src="./assets/screens/auto-categorize-ipad.webp" width="768" height="1024" alt="自动分类" loading="lazy">
+            <figcaption><span data-lang="zh">iPad 自动分类</span><span data-lang="en">Auto categorize on iPad</span></figcaption>
+          </figure>
+          <figure class="gallery-item tablet">
+            <img src="./assets/screens/privacy-control-ipad.webp" width="768" height="1024" alt="隐私控制" loading="lazy">
+            <figcaption><span data-lang="zh">iPad 隐私控制</span><span data-lang="en">Privacy control on iPad</span></figcaption>
+          </figure>
+        </div>
       </section>
     </main>
 
